@@ -15,10 +15,7 @@
     flex-direction: row;
     justify-content: space-around;
     margin-top: 0;
-    width: 100%; 
-    background-image: url("./imagenes/fondo2.jpg");
-    background-size: contain;
-   
+    width: 100%;
 }
 
 #logo{
@@ -152,4 +149,9 @@ padding-top: 50px;
   margin-left: 15px;
  
   
+}
+
+#textoPrimeraSeccion{
+  background-color: aquamarine;
+  margin-top: 4cm;
 }

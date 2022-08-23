@@ -22,7 +22,7 @@ return (
     <CartWidget></CartWidget>
     </div>
 
-  <div id="primeraSeccion"></div> 
+  {/* <div id="primeraSeccion"></div>  */}
 </div>
 )}
 

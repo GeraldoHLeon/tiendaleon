@@ -1,12 +1,16 @@
 import "./NavBar.css";
+import props from "react"
 
-function pronto(props) {
-    const inicio= props.texto
+function ItemListContainer(props) {
+    console.log(props)
+    const inicio= props.titulo;
  return (
  <>
- <p>{inicio}</p>
+ <div id="primeraSeccion">
+ <p id="textoPrimeraSeccion">{inicio}</p>
+ </div> 
  </>
 
  )}
 
- export default pronto;
+ export default ItemListContainer;
