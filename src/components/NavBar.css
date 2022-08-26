@@ -167,3 +167,34 @@ padding-top: 50px;
 .cifra{
   padding: 0 10px;
 }
+
+.cajaProducto{
+padding: 10px;
+}
+
+.remera{
+  width: 4.5cm;
+}
+
+.detalles{
+  width:2cm;
+}
+
+.agregarCarrito{
+  padding: 5px;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 50px;
+  grid-row-gap: 0px;
+  margin-left: 7cm;
+  }
+
+  .producto{
+    font-size: 16px;
+    padding:30px
+  }
+  

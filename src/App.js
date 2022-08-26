@@ -9,6 +9,7 @@ function App() {
       <header className="App-header">
       <MenuNavegacion></MenuNavegacion>
       <ItemListContainer titulo="COMMING SOON..."></ItemListContainer>
+
        </header>
     </div>
   );
