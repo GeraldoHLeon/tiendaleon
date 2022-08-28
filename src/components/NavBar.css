@@ -197,4 +197,49 @@ padding: 10px;
     font-size: 16px;
     padding:30px
   }
+
+  h3{
+    font-size: 25px !important;
+    padding-top:35px ;
+     }
+.container{
+  width: 98%;
+  margin: auto;
+  background-color: rgba(250, 235, 215, 0.291);
+}
+.detail_image{
+  height: 10cm;
+  padding-left: 15px;
+  width: 8cm !important;
+}
+@media screen and (min-width:768px) {
+  .container{
+    width: 70%;
+  }
+}
+.detail{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+ 
+
+
+.content{
+  width: 100%;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 768px){
+  .detail_image{
+    width: 50%;
+  }
   
+  .content{
+    width: 50%;
+    padding-left: 3rem;
+  }
+
+}
