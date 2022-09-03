@@ -15,4 +15,17 @@ code {
     monospace;
 }
 
+footer{
+  background-image: url("./components/imagenes/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 16cm;
+  display: flex;
+  align-items: flex-end;
+}
+#Copyright{
+  padding: 5px;
+  padding-bottom: 20px;
+  color: aliceblue;
+}
 

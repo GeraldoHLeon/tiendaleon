@@ -13,7 +13,8 @@
     padding: 20px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:flex-start;
+    align-items: center;
     margin-top: 0;
     width: 100%;
 }
@@ -108,20 +109,36 @@
   #secciones{
 display: flex;
 flex-direction: row;
+align-items: center;
 padding: 20px 10px;
-margin-left: 70px;
+margin-left: 7cm;
 padding-top: 50px;
-
   }
 
 .item{
-    padding: 19px;
-    font-size: 18px;
+    padding: 14px;
+    margin:0 20px;
+    font-size: 16px;
+    text-transform: uppercase;
+    width: 5.5cm;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    color: #000000;
+    background: #ffffff;
+    padding: 10px 20px 10px 20px;
+    border-top: solid #000000 5px;
+    border-right: solid #000000 8px;
+    border-bottom: solid #050505 1px;
+    border-left: solid #666666 1px;
+    text-align: center;
 }
 
 .item:hover{
     color: green;
-    font-size: 22px;
+    font-size:18px;
+    background: #99ffda;
+    width: 5.7cm;
 }
 
 #primeraSeccion{
@@ -135,25 +152,29 @@ padding-top: 50px;
 }
 
 #carrito{
-  width: 30px;
-  height: 30px;
+  width: 80px;
+  height: 80px;
   margin-right: 5px;
 }
 
 #choice{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   font-size:25px;
-  justify-content: space-around;
-  align-items: flex-start;
-  margin-left: 15px;
- 
-  
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
 }
 
 #textoPrimeraSeccion{
-  background-color: aquamarine;
-  margin-top: 4cm;
+  background-color: rgb(255, 182, 245);
+  margin: 3cm auto;
+  width: 17cm;
+  text-align: center;
+  font-size: 40px;
+padding: 10px;
+border: solid 10px black;
+line-height: 80px;
 }
 
 .contenedorContador{
@@ -187,7 +208,7 @@ padding: 10px;
 .catalogo {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  /* grid-template-rows: repeat(5, 1fr); */
   grid-column-gap: 50px;
   grid-row-gap: 0px;
   margin-left: 7cm;
@@ -202,10 +223,13 @@ padding: 10px;
     font-size: 25px !important;
     padding-top:35px ;
      }
+    #box1{
+      width: 5.5cm;
+    }
 .container{
   width: 98%;
   margin: auto;
-  background-color: rgba(250, 235, 215, 0.291);
+  background-color: rgba(215, 250, 227, 0.291);
 }
 .detail_image{
   height: 10cm;
