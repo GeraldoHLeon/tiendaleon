@@ -1,8 +1,16 @@
 import react from "react";
 import "./NavBar.css";
+import  ItemCount  from "./ItemCount";
+import React, {useState} from "react";
+import { Link } from "react-router-dom";
 
 
 export const ItemDetail = ({ data }) => {
+    const [goToCart, setgoToCart] = useState(false);
+
+    const onAdd = (cantidad) => {
+        setgoToCart(true);
+        }
 return (
 <div className="container">
 <div className="detail">
@@ -11,6 +19,14 @@ return (
 <h1>{data.title}</h1>
 <h3 classname="descripcion">{data.descripcion}</h3>
 <h3 classname="precio">{data.precio}</h3>
+<div className="terminar">
+{
+    goToCart
+    ? <Link to="/cart">Terminar compra</Link>
+    : <ItemCount stock={6} onAdd={onAdd} />
+
+}
+</div>
 </div>
 </div>
 </div>

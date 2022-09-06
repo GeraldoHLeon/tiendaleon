@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import React, {useEffect, useState} from "react";
 import ItemList from "./ItemList";
-import  ItemCount  from "./ItemCount";
+
 import { useParams } from "react-router-dom";
 import remeraRoja from "./imagenes/remera/PNG/remeraRoja.png";
 import remeraAzul from "./imagenes/remera/PNG/remeraAzul.png";
@@ -53,8 +53,7 @@ else {
 },[categoriaId])
 
 
-const onAdd = (cantidad) => {
-    console.log("compraste " + cantidad + " unidades");}
+
  return (
  <>
     <div id="primeraSeccion">
@@ -62,7 +61,7 @@ const onAdd = (cantidad) => {
     <div className="catalogo">
     <ItemList data={data}/>
     </div>
-    {/* <ItemCount stock={6} onAdd={onAdd} /> */}
+     
  </div>
  </>
 

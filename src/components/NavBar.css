@@ -229,6 +229,7 @@ padding: 10px;
 .container{
   width: 98%;
   margin: auto;
+  padding: 10px;
   background-color: rgba(215, 250, 227, 0.291);
 }
 .detail_image{
@@ -266,4 +267,15 @@ padding: 10px;
     padding-left: 3rem;
   }
 
+}
+.contenedorMayor{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.terminar{
+  background-color: #99ffda;
+  text-align: center;
+  margin-top: 1cm;
 }

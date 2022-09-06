@@ -8,14 +8,16 @@ const ItemCount = ({stock, onAdd})=>{
     const disminuir =() =>{ if(contador>0){setContador( contador - 1 ) }};
 
 return(
-    <>
+    <div className="contenedorMayor">
     <div className="contenedorContador">
-<button onClick={disminuir}>-</button>
+<button disabled={contador <= 0} onClick={disminuir}>-</button>
 <p className="cifra">{contador}</p>
-<button onClick={aumentar}>+</button>
+<button disabled={contador >= stock} onClick={aumentar}>+</button>
 </div>
+<div className="contenedorContador">
 <button className="agregarCarrito" disabled={stock <= 0} onClick={() => onAdd(contador)}>Agregar</button>
-</>
+</div>
+</div>
 )}
 
 
