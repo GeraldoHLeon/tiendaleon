@@ -1,15 +1,18 @@
-import react from "react";
 import "./NavBar.css";
-import  ItemCount  from "./ItemCount";
 import React, {useState} from "react";
+import { useCartContext } from "../CartContext";
+import  ItemCount  from "./ItemCount";
 import { Link } from "react-router-dom";
+
 
 
 export const ItemDetail = ({ data }) => {
     const [goToCart, setgoToCart] = useState(false);
+    const {addProduct} = useCartContext();
 
     const onAdd = (cantidad) => {
         setgoToCart(true);
+        addProduct(data, cantidad);
         }
 return (
 <div className="container">

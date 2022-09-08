@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import carrito from "./imagenes/carrito1.png";
 
- function CartWidget() {
+ export const CartWidget = () => {
  return (
  <>
  <div id="choice">
