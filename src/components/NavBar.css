@@ -22,7 +22,25 @@
 #logo{
     width:5cm ;
   }
-
+  .content{
+    background-color: transparent;
+    padding-left: 140px !important;
+  }
+#pandita{
+    background-color: rgb(204, 113, 189) !important;
+    width: 5cm;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    margin: auto;
+    margin-top: 1cm;
+    height: auto;
+  }
+#keep{
+  font-size: 12px;
+  padding-left: 5px;
+  padding-top: 3px;
+}
   #empresa{
     display: flex;
     justify-content: center;
@@ -156,7 +174,20 @@ padding-top: 50px;
   height: 80px;
   margin-right: 5px;
 }
+.itemCart {
+display: flex;
+border-bottom: 1px solid grey;
+max-width: 500px;
+margin: 1rem auto;
 
+}
+.productCart{
+  width: 2cm;
+}
+.itemCart img{
+width: 200px;
+margin-right: 1rem;
+}
 #choice{
   display: flex;
   flex-direction: column;
@@ -188,7 +219,9 @@ line-height: 80px;
 .cifra{
   padding: 0 10px;
 }
-
+#descripcion{
+  font-size: 20px !important;
+}
 .cajaProducto{
 padding: 10px;
 }
@@ -229,12 +262,14 @@ padding: 10px;
 .container{
   width: 98%;
   margin: auto;
+  padding-left: 60px !important;
   padding: 10px;
   background-color: rgba(215, 250, 227, 0.291);
 }
 .detail_image{
   height: 10cm;
   padding-left: 15px;
+  margin-top: 1cm;
   width: 8cm !important;
 }
 @media screen and (min-width:768px) {
@@ -275,7 +310,7 @@ padding: 10px;
 }
 
 .terminar{
-  background-color: #99ffda;
+  background-color:transparent;
   text-align: center;
   margin-top: 1cm;
 }

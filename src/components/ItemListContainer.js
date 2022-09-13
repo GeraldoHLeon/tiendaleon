@@ -16,18 +16,18 @@ import Prosa from "./imagenes/panties/pantieRosa.png";
 import shortNaranja from "./imagenes/short/shortNaranja.png";
 
 const allProducts =[
-{id: 1, imagen:remeraRoja, title:"Red T-shirt", category:"remera"},
-{id: 2, imagen:remeraAzul, title:"Blue T-shirt", category:"remera"},
-{id: 3, imagen:remeraNegro, title:"Black T-shirt", category:"remera"},
-{id: 4, imagen:remeraAmarilla, title:"Yellow T-shirt", category:"remera"},
-{id: 5, imagen:remeraBlanca, title:"White T-shirt", category:"remera"},
-{id: 6, imagen:remeraVerde, title:"Green T-shirt", category:"remera"},
-{id: 7, imagen:remeraRosa, title:"Pink T-shirt", category:"remera"},
-{id: 8, imagen:remeraPurpura, title:"Purple T-shirt", category:"remera"},
-{id: 9, imagen:remeraNaranja, title:"Orange T-shirt", category:"remera"},
-{id: 10, imagen:Prosa, title:"Pink Panty", category:"panties"},
-{id: 11, imagen:shortNaranja, title:"Orange Short", category:"shorts"},
-];
+    {id: 1, imagen:remeraRoja, title:"Red T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica roja talla unica"},
+    {id: 2, imagen:remeraAzul, title:"Blue T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica azul talla unica"},
+    {id: 3, imagen:remeraNegro, title:"Black T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica negra talla unica"},
+    {id: 4, imagen:remeraAmarilla, title:"Yellow T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica amarilla talla unica"},
+    {id: 5, imagen:remeraBlanca, title:"White T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica blanca talla unica"},
+    {id: 6, imagen:remeraVerde, title:"Green T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica verde talla unica"},
+    {id: 7, imagen:remeraRosa, title:"Pink T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica rosa talla unica"},
+    {id: 8, imagen:remeraPurpura, title:"Purple T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica purpura talla unica"},
+    {id: 9, imagen:remeraNaranja, title:"Orange T-shirt", category:"remera" ,precio:2, descripcion:"Remera clasica naranja talla unica"},
+    {id: 10, imagen:Prosa, title:"Pink Panty", category:"panties" ,precio:1, descripcion:"panty clasica rosa talla unica"},
+    {id: 11, imagen:shortNaranja, title:"Orange Short", category:"shorts" ,precio:3, descripcion:"short clasico naranja talla unica"},
+    ];
 
 export const ItemListContainer = ({titulo})=> {
 const [data, setData] =useState([]);
