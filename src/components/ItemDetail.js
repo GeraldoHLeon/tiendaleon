@@ -23,7 +23,7 @@ return (
 <div className="content">
 <h1>{data.title}</h1>
 <h3 id="descripcion">{data.descripcion}</h3>
-<h3 classname="precio">{data.precio}</h3>
+<h3 classname="precio">{data.precio} $</h3>
 <div className="terminar">
 {
     goToCart
